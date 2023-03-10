@@ -1,0 +1,51 @@
+.flex_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul img {
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  margin: 5px 0 0 5px;
+}
+
+.nav {
+  position: relative;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+#navbar {
+  background-color: black;
+}
+
+#welcome {
+  color: bisque;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: bisque;
+  background-color: transparent;
+  text-decoration: none;
+}
+body {
+  overflow: hidden;
+}
